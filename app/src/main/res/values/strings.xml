@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ModernArtUI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="moreInfo">More Information</string>
+    <string name="dialogTitle">Inspired?</string>
+    <string name="dialogMsg">Click below to learn more about artists such as Piet Mondrain and Ben Nicholson!</string>
+    <string name="visitMOMA">Visit MOMA</string>
+    <string name="notNow">Not Now</string>
+    <string name="chooser">Load www.moma.org using:</string>
+
+</resources>

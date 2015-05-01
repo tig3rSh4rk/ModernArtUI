@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".ModernArtActivity">
+
+    <LinearLayout
+        android:id="@+id/rect0"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="987"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="610"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="610"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="610"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/rect1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="987"
+                    android:orientation="horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="610"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/rect2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="987"
+                        android:orientation="horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="610"
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="610"
+                            android:paddingRight="@dimen/activity_horizontal_margin"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/rect3"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:layout_marginBottom="1dp"
+                                android:orientation="horizontal"/>
+
+                            <LinearLayout
+                                android:id="@+id/rect4"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:layout_marginTop="1dp"
+                                android:orientation="horizontal"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rect5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="987"
+                            android:orientation="horizontal"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rect6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="987"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rect7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="987"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:background="#fff">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"
+            android:progress="1" />
+
+    </LinearLayout>
+</LinearLayout>
